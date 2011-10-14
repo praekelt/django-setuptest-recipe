@@ -9,8 +9,6 @@ setup(
     author='Praekelt Foundation',
     author_email='dev@praekelt.com',
     license='BSD',
-    url='http://www.jmbo.org',
-    packages = find_packages(),
     install_requires = [
         'djangorecipe',
     ],
