@@ -1,2 +1,8 @@
+*.swp
+*.pyc
+*.egg-info
+ve/
+build/
 dist/
-django_setuptest_recipe.egg-info/
+*.swo
+/docs/_build
