@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name = "django-setuptest-recipe",
@@ -9,6 +9,9 @@ setup(
     author='Praekelt Foundation',
     author_email='dev@praekelt.com',
     license='BSD',
+    url='http://github.com/praekelt/django-setuptest-recipe',
+    packages=find_packages(),
+    include_package_data=True,
     install_requires = [
         'djangorecipe',
     ],
